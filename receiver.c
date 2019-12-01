@@ -293,3 +293,5 @@ static MESGB *q_get(QTYPE *queue, MESGB *data, MESGB reRcv, Byte* waitForNoMsg)
 		}
 		return data;
 	}
+
+void water(void);
